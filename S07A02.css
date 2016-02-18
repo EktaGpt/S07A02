@@ -1,0 +1,7 @@
+tr{
+    height:40;
+    width: 20;
+}
+table.odd-rows tr:nth-child(odd) {
+    display: none;
+}

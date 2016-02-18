@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> Hiding Odd Rows</title>
+        <link href="S07A02.css" rel="stylesheet">
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>Row1</td>
+            </tr>
+            <tr>
+                <td>Row2</td>
+            </tr>
+            <tr>
+                <td>Row3</td>
+            </tr>
+            <tr>
+                <td>Row4</td>
+            </tr>
+            <tr>
+                <td>Row5</td>
+            </tr>
+            <tr>
+                <td>Row6</td>
+            </tr>
+            <tr>
+                <td>Row7</td>
+            </tr>
+        </table>
+        <br>
+        <button type="button" id="HideRows">Hide odd Rows</button>
+        <script>
+            document.getElementById('HideRows').onclick = function hideRows() {
+                    document.getElementsByTagName('table').item(0).className = 'odd-rows';
+                }
+    
+        </script>
+    </body>
+</html>
